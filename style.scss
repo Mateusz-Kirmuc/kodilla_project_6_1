@@ -1,3 +1,7 @@
+// Variables
+$brighter-bg-color: #313234;
+$darker-bg-color: #252726;
+
 /* GENERAL */
 
 body {
@@ -82,19 +86,10 @@ p, h1, h2 {
 	text-align: center;
 }
 
-/* SIMPLE GRID */
-.col-2 {
-	width: 16.66%;
-}
-
-.col-4 {
-	width: 33.33%;
-}
-
 /* NAVBAR */
 
 header {
-	background-color: #313234;
+	background-color: $brighter-bg-color;
 }
 
 .logo {
@@ -262,7 +257,7 @@ header {
 
 
 .section-with-image {
-	background-color: #313234;
+	background-color: $brighter-bg-color;
 	overflow: hidden;
 
 	.image-container {
@@ -277,7 +272,7 @@ header {
 /* FOOTER */
 
 .footer {
-	background-color: #313234;
+	background-color: $brighter-bg-color;
 	padding-top: 50px;
 	padding-bottom: 50px;
   i {
@@ -298,7 +293,7 @@ header {
 	padding: 30px 0;
 	text-align: center;
 	color: white;
-	background-color: #252726;
+	background-color: $darker-bg-color;
 }
 
 
